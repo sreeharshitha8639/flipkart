@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    background-color: #f1f2f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: white !important;
+}
+
+.navbar-brand img {
+    max-height: 30px;
+    width: auto;
+}
+
+.search-form {
+    position: relative;
+    width: 65%;
+}
+
+.search-form input {
+    padding-left: 40px;
+}
+
+.search-form i {
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #2874f0;
+}
+
+@media (min-width: 992px) {
+    .search-form {
+        width: 80%;
+    }
+}
+
+.nav-icons a, .nav-icons button {
+    color: #2874f0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-icons a:hover, .nav-icons button:hover {
+    color: #0d6efd;
+}
+
+/* Full-width Navbar at xs and lg */
+@media (max-width: 575px), (min-width: 992px) {
+    .navbar .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* Categories Section */
+.category-section {
+    background-color: white;
+}
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.category-card img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 8px;
+}
+
+.category-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #212121;
+    text-align: center;
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 270px;
+    object-fit: cover;
+}
+
+/* Best of Electronics */
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    object-fit: contain;
+}
+
+/* Footer */
+footer {
+    background-color: #172337;
+    color: #878787;
+    padding: 40px 0 20px;
+    font-size: 12px;
+}
